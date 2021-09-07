@@ -2,6 +2,7 @@ import React from "react"
 
 import styled from "styled-components"
 import AllProducts from "../components/AllProducts"
+import Catia from "../components/Catia"
 import Footer from "../components/Footer"
 import Hero from "../components/Hero"
 import CloseYeImg from "../components/Image/CloseYeImg"
@@ -27,6 +28,7 @@ const BgColor = styled.div`
   bottom: 0;
   left: 0;
   z-index: -100;
+  mix-blend-mode: multiply;
 `
 
 const BgImg = styled.div`
@@ -54,6 +56,7 @@ const Index = () => {
       <CloseYeImg />
       <Hero />
       <AllProducts />
+      <Catia />
       <Footer />
     </Home>
   )
